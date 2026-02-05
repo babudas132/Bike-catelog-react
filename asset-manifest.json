@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Bike-catelog-react/static/css/main.430bc207.css",
-    "main.js": "/Bike-catelog-react/static/js/main.3be05a53.js",
+    "main.js": "/Bike-catelog-react/static/js/main.c34ccb66.js",
     "index.html": "/Bike-catelog-react/index.html",
     "main.430bc207.css.map": "/Bike-catelog-react/static/css/main.430bc207.css.map",
-    "main.3be05a53.js.map": "/Bike-catelog-react/static/js/main.3be05a53.js.map"
+    "main.c34ccb66.js.map": "/Bike-catelog-react/static/js/main.c34ccb66.js.map"
   },
   "entrypoints": [
     "static/css/main.430bc207.css",
-    "static/js/main.3be05a53.js"
+    "static/js/main.c34ccb66.js"
   ]
 }
