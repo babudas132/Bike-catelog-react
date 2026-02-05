@@ -1,7 +1,7 @@
 const Menu = [
   {
     id: 1,
-    image: process.env.PUBLIC_URL + "/images/1 (1).jpeg",
+    image:"/images/1 (1).jpeg",
     name: "Maggi",
     category: "breakfast",
     price: "123",
