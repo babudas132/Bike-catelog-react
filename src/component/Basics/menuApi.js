@@ -1,7 +1,7 @@
 const Menu = [
   {
     id: 1,
-    image: "imges/1 (1).jpeg",
+    image: process.env.PUBLIC_URL + "/images/1 (1).jpeg",
     name: "Maggi",
     category: "breakfast",
     price: "123",
@@ -10,7 +10,7 @@ const Menu = [
   },
   {
     id: 2,
-    image: "imges/1 (2).jpeg",
+    image: process.env.PUBLIC_URL + "/images/1 (2).jpeg",
     name: "Allu Pakoda",
     category: "evening",
     price: "207",
@@ -19,7 +19,7 @@ const Menu = [
   },
   {
     id: 3,
-    image: "imges/1 (3).jpeg",
+    image: process.env.PUBLIC_URL + "/images/1 (3).jpeg",
     name: "Corn",
     category: "breakfast",
     price: "107",
@@ -28,7 +28,7 @@ const Menu = [
   },
   {
     id: 4,
-    image: "imges/1 (4).jpeg",
+    image: process.env.PUBLIC_URL + "/images/1 (4).jpeg",
     name: "Chola",
     category: "lunch",
     price: "507",
@@ -37,7 +37,7 @@ const Menu = [
   },
   {
     id: 5,
-    image: "imges/1 (5).jpeg",
+    image: process.env.PUBLIC_URL + "/images/1 (5).jpeg",
     name: "Pasta",
     category: "lunch",
     price: "299",
@@ -46,7 +46,7 @@ const Menu = [
   },
   {
     id: 6,
-    image: "imges/1 (6).jpeg",
+    image: process.env.PUBLIC_URL + "/images/1 (6).jpeg",
     name: "Pizza",
     category: "dinner",
     price: "599",
@@ -55,7 +55,7 @@ const Menu = [
   },
   {
     id: 7,
-    image: "imges/1 (7).jpeg",
+    image: process.env.PUBLIC_URL + "/images/1 (7).jpeg",
     name: "Sandwich",
     category: "breakfast",
     price: "159",
@@ -64,7 +64,7 @@ const Menu = [
   },
   {
     id: 8,
-    image: "imges/1 (8).jpeg",
+    image: process.env.PUBLIC_URL + "/images/1 (8).jpeg",
     name: "Noodles",
     category: "evening",
     price: "189",
@@ -73,7 +73,7 @@ const Menu = [
   },
   {
     id: 9,
-    image: "imges/1 (9).jpg",
+    image: process.env.PUBLIC_URL + "/images/1 (9).jpeg",
     name: "Dosa",
     category: "breakfast",
     price: "129",
@@ -82,7 +82,7 @@ const Menu = [
   },
   {
     id: 10,
-    image: "imges/1 (9).jpg",
+    image: process.env.PUBLIC_URL + "/images/1 (9).jpg",
     name: "Do ",
     category: "Drawn",
     price: "129",
