@@ -1,0 +1,185 @@
+body {
+  
+  font-family: "Georgia", serif;
+  background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+
+.main-card--container {
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.card-container {
+  background: #fff;
+  border-radius: 20px;
+}
+
+.card {
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 4px;
+  min-height: 280px;
+  border-radius: 5px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-number {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+}
+
+.card-category {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #999;
+}
+
+.card-title {
+  margin: 1rem 0 0.5rem;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #777;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.card-read {
+  letter-spacing: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.card-btn {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 6px 14px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
+.card-media {
+  width: 100%;
+  height: 220px;          /* FIXED HEIGHT */
+  object-fit: cover;     /* CROPS IMAGE */
+  border-radius: 4px;
+  display: block;
+  margin-top: 1rem;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  height: 100px;
+}
+
+.btn-group {
+  width: 95%;
+  position: relative;
+  display: flex;
+  background: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  gap: 30px;
+}
+
+.btn-group__item {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 6px 0;
+  color: #000;
+  position: relative;
+
+  /* smooth transition */
+  transition: color 0.3s ease;
+}
+
+/* hover text color */
+.btn-group__item:hover {
+  color: #5e2b97; /* purple */
+}
+
+/* underline effect */
+.btn-group__item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background-color: #5e2b97;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+/* show underline on hover */
+.btn-group__item:hover::after {
+  transform: scaleX(1);
+}
+
+/* order now */
+.card-tag {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid #5e2b97;
+  color: #5e2b97;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-tag:hover {
+  background: #5e2b97;
+  color: #fff;
+  
+}
+.card-read{
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding:2px 2px;
+  border-radius: 20px;
+  border: 1px solid #5e2b97;
+  color: #5e2b97;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card-read:hover{
+   background: #5e2b97;
+  color: #fff;
+}
